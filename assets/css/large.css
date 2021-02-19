@@ -1,0 +1,16 @@
+
+.twentyseventeen-panel .comic-list {
+    width: 30%;
+}
+
+.admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media, 
+.admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media, 
+.admin-bar.home.blog.has-header-image .custom-header-media, 
+.admin-bar.home.blog.has-header-video .custom-header-media {
+    height: 100vh;
+}
+
+.footer-widget-1 .tagcloud ul li,
+.footer-widget-1 .charactercloud ul li {
+    width: calc(100% / 5);
+}

@@ -1,0 +1,23 @@
+
+
+.panel-image {
+    background-position-y: 0px;
+}
+
+.twentyseventeen-panel .comic-list {
+    padding: 0em;
+    margin: 0.5em;
+    width: 45%;
+    text-align: center;
+    font-size: 1.5em;
+    word-wrap: break-word;
+}
+
+.widget:not(.widget_tag_cloud) ul li + li {
+    margin-top: 0;
+}
+
+.footer-widget-1 .tagcloud ul li,
+.footer-widget-1 .charactercloud ul li {
+    width: calc(100% / 4);
+}

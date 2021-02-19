@@ -1,0 +1,21 @@
+
+
+.has-header-image .custom-header-media img,
+.has-header-video .custom-header-media video,
+.has-header-video .custom-header-media iframe,
+.has-header-image:not(.eks-front-page):not(.home) .custom-header-media img {
+    object-position: 72% 10%;
+}
+
+.panel-image {
+    background-position-y: 0px;
+}
+
+.twentyseventeen-panel .comic-list {
+    padding: 0em;
+    margin: 0.5em;
+    width: 40%;
+    text-align: center;
+    font-size: 1.5em;
+    word-wrap: break-word;
+}

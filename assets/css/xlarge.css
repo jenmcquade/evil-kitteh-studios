@@ -1,0 +1,29 @@
+
+
+.cbp-spmenu {
+    overflow-y: hidden;
+}
+
+
+.cbp-spmenu {
+    overflow-y: hidden;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Kirang Haerang', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.15em;
+}
+
+.category-branding .eks-logo-image {
+    transform: scale(1.4);
+    top: -8em;
+}
+
+.footer-widget-1 .tagcloud ul li,
+.footer-widget-1 .charactercloud ul li {
+    width: calc(100% / 6);
+}

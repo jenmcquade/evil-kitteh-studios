@@ -1,0 +1,226 @@
+/** Ensure no sliding left or right because of too much body width **/
+.site,
+.site-content-contain {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.wrap {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.home .content-wrap {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1.5em;
+    border-radius: 24px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.content-area {
+    position: relative;
+    z-index: 99;
+}
+
+.single-featured-image-header img {
+    display: none !important;
+}
+
+/**
+    HOME-SPECIFIC 
+**/
+
+.post-thumbnail {
+    vertical-align: middle;
+    margin: auto auto;
+}
+
+.home #panel1 .entry-content p {
+    margin: 1em 0;
+}
+
+
+/**
+    HOME LATEST COMICS NAV
+**/
+.home-content table#comic-nav-wrapper {
+    padding: .5em;
+}
+
+.comic-area .comic-nav a {
+    text-decoration: underline;
+}
+
+.comic-nav a.comic-nav-base:hover,
+.comic-nav a.comic-nav-random:hover {
+    color: #666;
+}
+
+.home-content .comic-nav-jumpto,
+.home-content .comic-nav-jumptocomic {
+    display: inline-table;
+}
+
+.home-content .comic-nav-container td.comic-nav {
+    display: inline-grid;
+    padding: 0;
+}
+
+.home-content .comic-nav-container td.comic-nav a,
+.home-content .comic-nav-container td.comic-nav form {
+    padding: 0.25em;
+}
+
+.home-content .comic-nav-container .comic-nav-next,
+.home-content .comic-nav-container .comic-nav-last {
+    display: none;
+}
+
+/** CONTACT US **/
+#panel3 h2 {
+    margin-top: 0;
+}
+#wpcf7-f64-o1 input {
+    margin: auto auto;
+    width: 100%;
+}
+
+
+/** FOOTER **/
+.copyright {
+    text-align: center;
+    border-top: transparent;
+    margin-top: 5em;
+    padding-top: 2em;
+    display: relative;
+    z-index: 999;
+}
+
+.site-footer .wrap {
+    padding: 0 1em;
+}
+
+.site-footer .wrap .widget-area {
+    padding: 0 0;
+}
+
+.site-footer .widget-column.footer-widget-2 {
+    float: none;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+}
+
+.footer-widget-1 {
+    text-align: center;
+    width: 100% !important;
+    float: none !important;
+}
+
+.footer-widget-1 h2 {
+    font-size: 2em;
+    margin: 1em 0 0 0;
+}
+
+.footer-widget-1 .tagcloud ul,
+.footer-widget-1 .charactercloud ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-widget-1 .tagcloud ul li,
+.footer-widget-1 .charactercloud ul li {
+    display: grid;
+    width: calc(100% / 3);
+    margin: 1em 1em 0;
+    border-bottom: 0;
+    margin-top: 0;
+    padding: 0.5em 0;
+}
+
+.footer-widget-1 .tagcloud ul li a,
+.footer-widget-1 .charactercloud ul li a {
+    border: 1px solid #444;
+    display: block;
+    padding: 4px 10px 5px;
+    position: relative;
+    width: auto;
+    min-height: 2em;
+}
+
+.footer-widget-1 .tagcloud ul li a:hover,
+.footer-widget-1 .charactercloud ul li a:hover {
+    border-color: #555;
+    color: #ccc !important;
+    transition: color 0.2s linear;
+    text-decoration: none;
+    box-shadow: none !important;
+}
+
+.footer-widget-1 section.widget_tag_cloud {
+    padding-bottom: 1em;
+}
+
+.site-info {
+    float: none !important;
+    margin: 0 auto !important;
+}
+
+.footer-site-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.footer-site-links li {
+    margin: 0 1em;
+}
+
+/** CONTENT-SPECIFIC OVERRIDES **/
+
+.wp-image-68 {
+    margin: auto auto;
+}
+
+#panel1 img {
+    margin-top: 1em !important;
+    width: auto;
+}
+
+#post-38 {
+    display: none;
+}
+
+.eks-front-page article:not(.has-post-thumbnail):not(:first-child) {
+    border-top: 0;
+}
+
+.post-180 h2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 2em !important;
+}
+
+.post-209 .wrap {
+    max-width: 100% !important;
+    padding: 0;
+}
+
+.page #panel2 h2.entry-title {
+    width: 50%;
+}
+
+#panel2 .comic-archive-chapter-wrap {
+    margin-top: -6em;
+}
+
+
+
+
+

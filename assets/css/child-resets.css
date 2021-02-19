@@ -1,0 +1,162 @@
+/** 
+    HTML TAG OVERRIDES 
+**/
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    overflow-y: auto;
+}
+
+body, button, input, select, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Kirang Haerang', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 200%;
+    padding: 0.15em;
+    line-height: 0.9;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
+}
+
+article {
+    border: 1em solid black;
+}
+
+.colors-dark h2,
+.colors-dark .site-info a,
+.colors-dark .wp-caption {
+    color: white;
+}
+
+.colors-dark .site-title,
+.colors-dark .dropdown-toggle,
+.colors-dark .menu-toggle,
+.colors-dark .page .panel-content .entry-title,
+.colors-dark .page-title
+{
+    color: #ccc;
+}
+
+.colors-dark .entry-title a,
+.colors-dark .entry-meta a,
+.colors-dark.blog .entry-meta a.post-edit-link,
+.colors-dark.archive .entry-meta a.post-edit-link,
+.colors-dark.search .entry-meta a.post-edit-link,
+.colors-dark .entry-content a,
+.colors-dark .page-links a,
+.colors-dark .page-links a .page-number,
+.colors-dark .entry-footer a,
+.colors-dark .entry-footer .cat-links a,
+.colors-dark .entry-footer .tags-links a,
+.colors-dark .edit-link a,
+.colors-dark .post-navigation a,
+.colors-dark .logged-in-as a,
+.colors-dark .comment-navigation a,
+.colors-dark .comment-metadata a,
+.colors-dark .comment-metadata a.comment-edit-link,
+.colors-dark .comment-reply-link,
+.colors-dark a .nav-title,
+.colors-dark .pagination a,
+.colors-dark .comments-pagination a,
+.colors-dark .widget .widget-title a,
+.colors-dark .widget ul li a,
+.colors-dark .site-footer .widget-area ul li a,
+.colors-dark .site-info a {
+    box-shadow: none;
+}
+
+.colors-dark .entry-title a,
+.colors-dark .entry-footer .cat-links a,
+.colors-dark .entry-footer .tags-links a,
+.colors-dark .format-quote blockquote,
+.colors-dark .nav-title {
+    color: black;
+}
+
+.colors-dark a:hover,
+.colors-dark a:active,
+.colors-dark .entry-content a:focus,
+.colors-dark .entry-content a:hover,
+.colors-dark .entry-summary a:focus,
+.colors-dark .entry-summary a:hover,
+.colors-dark .comment-content a:focus,
+.colors-dark .comment-content a:hover,
+.colors-dark .widget a:focus,
+.colors-dark .widget a:hover,
+.colors-dark .site-footer .widget-area a:focus,
+.colors-dark .site-footer .widget-area a:hover,
+.colors-dark .posts-navigation a:focus,
+.colors-dark .posts-navigation a:hover,
+.colors-dark .comment-metadata a:focus,
+.colors-dark .comment-metadata a:hover,
+.colors-dark .comment-metadata a.comment-edit-link:focus,
+.colors-dark .comment-metadata a.comment-edit-link:hover,
+.colors-dark .comment-reply-link:focus,
+.colors-dark .comment-reply-link:hover,
+.colors-dark .widget_authors a:focus strong,
+.colors-dark .widget_authors a:hover strong,
+.colors-dark .entry-title a:focus,
+.colors-dark .entry-title a:hover,
+.colors-dark .entry-meta a:focus,
+.colors-dark .entry-meta a:hover,
+.colors-dark.blog .entry-meta a.post-edit-link:focus,
+.colors-dark.blog .entry-meta a.post-edit-link:hover,
+.colors-dark.archive .entry-meta a.post-edit-link:focus,
+.colors-dark.archive .entry-meta a.post-edit-link:hover,
+.colors-dark.search .entry-meta a.post-edit-link:focus,
+.colors-dark.search .entry-meta a.post-edit-link:hover,
+.colors-dark .page-links a:focus .page-number,
+.colors-dark .page-links a:hover .page-number,
+.colors-dark .entry-footer .cat-links a:focus,
+.colors-dark .entry-footer .cat-links a:hover,
+.colors-dark .entry-footer .tags-links a:focus,
+.colors-dark .entry-footer .tags-links a:hover,
+.colors-dark .post-navigation a:focus,
+.colors-dark .post-navigation a:hover,
+.colors-dark .pagination a:not(.prev):not(.next):focus,
+.colors-dark .pagination a:not(.prev):not(.next):hover,
+.colors-dark .comments-pagination a:not(.prev):not(.next):focus,
+.colors-dark .comments-pagination a:not(.prev):not(.next):hover,
+.colors-dark .logged-in-as a:focus,
+.colors-dark .logged-in-as a:hover,
+.colors-dark a:focus .nav-title,
+.colors-dark a:hover .nav-title,
+.colors-dark .edit-link a:focus,
+.colors-dark .edit-link a:hover,
+.colors-dark .site-info a:focus,
+.colors-dark .site-info a:hover,
+.colors-dark .widget .widget-title a:focus,
+.colors-dark .widget .widget-title a:hover,
+.colors-dark .widget ul li a:focus,
+.colors-dark .widget ul li a:hover {
+    color: #ccc;
+    transition: color 0.2s linear;
+}
+ 
+.colors-dark .entry-footer, 
+.colors-dark .site-footer {
+    border-top-color: #ccc;
+}
+
+.colors-dark.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child), 
+.colors-dark .widget ul li {
+    border-top: none;
+}
+
+.colors-dark .page-numbers.current {
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    line-height: 3em;
+    text-align: center;
+    background: #fff;
+    display: table-column;
+    color: #666;
+    padding: 0;
+}

@@ -1,0 +1,314 @@
+/** PAGE OVERRIDES **/
+
+.page-content .site-content-contain {
+    background: url('../images/logo.svg');
+    background-size: 400px 400px;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+}
+
+.page-content article {
+    border-radius: 8px;
+    border: 2px solid black;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 1em;
+    margin: 1em;
+}
+
+.page-content article h3 {
+    padding: 0;
+    margin: 1em 0;
+    font-size: 1.5em;
+}
+
+.category-header .wp-custom-header img {
+    object-position: center 10%;
+}
+
+.page-content .site-content {
+    padding: 0;
+}
+
+.page-content .site-content .post-thumbnail {
+    display: none;
+}
+
+.page .panel-content .entry-title,
+.page-title,
+body.page:not(.eks-front-page) .entry-title,
+.comic-title {
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.7);
+    width: 100%;
+    margin: auto auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    color: #666;
+    padding: .25em .25em;
+    position: relative;
+    top: -4em;
+    z-index: 99;
+    font-size: 150%;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.entry-header {
+    padding-top: 0em;
+    margin-bottom: 0 !important;
+}
+
+.page-content .entry-content img,
+.page-content .entry-content p img {
+    margin: auto auto;
+    min-width: 95%;
+}
+
+.panel-image {
+    background-position: default;
+    height: fit-content;
+    
+}
+
+.entry-title a {
+    background: white;
+    border-radius: 25px;
+    margin: auto auto;
+    padding: 6px 12px;
+    display: block;
+    width: 95%;
+    font-size: 125%;
+}
+
+.entry-footer {
+    border: 0;
+    margin: auto auto;
+    text-align: center;
+    padding: 0;
+}
+
+
+/**
+    ARCHIVE PAGES
+**/
+
+.page.page-one-column .entry-header, 
+.twentyseventeen-front-page.page-one-column .entry-header, 
+.archive.page-one-column:not(.has-sidebar) .page-header {
+    margin-bottom: 0;
+}
+
+.twentyseventeen-panel .comic-archive-chapter-description {
+    display: block;
+}
+
+.twentyseventeen-panel .comic-archive-list-wrap {
+    width: 100%;
+    margin: auto auto;
+    padding: 0 2%;
+    font-size: 0.7em;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.twentyseventeen-panel .comic-list {
+    padding: 0em;
+    margin: 0.5em;
+    width: 27%;
+    text-align: center;
+    font-size: 115%;
+    word-wrap: break-word;
+}
+
+.twentyseventeen-panel .comic-archive-title {
+    margin-left: 0;
+}
+
+.twentyseventeen-panel .comic-archive-thumbnail {
+    display: none;
+}
+
+.twentyseventeen-panel .comic-archive-date {
+    display: none;
+}
+
+.chapter-select select {
+    padding: 0.10em;
+}
+
+.single-featured-image-header {
+    display: none;
+}
+
+.post-navigation .nav-subtitle {
+    text-align: center;
+}
+
+/** Comic Panels **/
+
+#comic-wrap {
+    border-bottom: 1em solid black;
+}
+
+#comic {
+    width: 100vw;
+    margin: auto auto;
+    -webkit-filter: drop-shadow( 8px 8px 0 rgba(0, 0, 0, 1));
+    filter: drop-shadow( 8px 8px 0 rgba(0, 0, 0, 1));
+}
+
+#comic img {
+    height: auto;
+    width: 85%;
+    margin: auto auto;
+    margin-bottom: 1em;
+    padding: 0 !important;
+}
+
+.page-content .content-area {
+    text-align: center;
+}
+
+/** Hide post content on archive pages and only show thumbnail **/
+.archive .page-content .content-area p:not(.comic-thumbnail-in-archive) {
+    display: none;
+}
+
+.archive .content-area article {
+    margin-bottom: 3em;
+    padding: 1em;
+}
+
+.panel-content .wrap {
+    padding: 0 1em 2em 1em;
+}
+
+#panel2 .panel-image {
+    background-attachment: scroll;
+}
+
+.comic-template-default .content-area {
+    margin-top: 2em;
+}
+
+.comic-template-default h1 {
+    font-size: 300%;
+}
+
+.comic-area h2,
+.panel-content h2 {
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.7);
+    width: 80%;
+    margin: 1em auto;
+    background-color: white;
+    top: 0em;
+    padding: 0 0;
+    font-size: 200%;
+    color: #666
+}
+
+ul.post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+    padding-left: 2em;
+}
+
+ul.post-tags li {
+    margin: 0 1em;
+}
+
+.comic-archive-chapter {
+    display: none;
+}
+
+.comic-archive-thumbnail img {
+    height: 200px;
+}
+
+#post-bottom-widget .widget {
+    padding-bottom: 0;
+    margin-top: 1em;
+}
+
+#post-bottom-widget h3 {
+    margin-bottom: 0;
+}
+
+/** Comic Nav **/
+
+.post-navigation .nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 50%;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+    padding: 0.5em;
+    border-radius: 25px;
+    background-color: white;
+    margin: 0.5em 0.5em;
+    height: auto;
+    text-align: center !important;
+    min-width: 45%;
+
+}
+
+.pagination .page-numbers {
+    margin: 0 1em;
+}
+
+.pagination .nav-links {
+    display: flex;
+    justify-content: center; 
+}
+
+.icon-arrow-left,
+.icon-arrow-right {
+    color: #666 !important;
+}
+
+.page-numbers .icon {
+    color: white !important;
+    margin: 0.25em 0.5em 0;
+}
+
+.nav-title {
+    font-size: 1em;
+}
+
+.post-navigation {
+    margin: 1em 0;
+}
+
+/** COMMENTS **/
+
+#comments {
+    display: none;
+}
+
+/** 404 **/
+.error404 .page-header {
+    float: none !important;
+    width: 100% !important;
+}
+
+.error404 .page-header .page-title {
+    position: relative;
+    top: auto;
+    margin-top: 3em;
+    padding: 1em;
+}
+
+.not-found .page-content {
+    display: none;
+}
+
+.post-40 .entry-content h2 {
+    color:#666;
+}
+
+

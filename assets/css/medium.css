@@ -1,0 +1,28 @@
+h1,
+h2,
+h3 {
+    padding: 0.15em;
+}
+
+.site-branding {
+    padding: 1em 0;
+}
+
+.custom-logo-link img, 
+body.home.title-tagline-hidden.has-header-image .custom-logo-link img {
+    max-width: 80%;
+}
+
+.category-branding .eks-logo .header-logo img {
+    display: none;
+}
+
+.page #panel2 h2.entry-title {
+    font-size: 3em;
+}
+
+
+
+
+
+
