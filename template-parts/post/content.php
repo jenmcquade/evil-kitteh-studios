@@ -72,16 +72,22 @@ $post_slug = get_post_field( 'post_name', get_post() );
 				'link_after'  => '</span>',
 			)
 		);
-
+		
 		echo '<ul class="post-tags">';
 			foreach ($tags as $tag) {
 				echo '<li class="tag"><a href="' . get_term_link( $tag->slug, 'post_tag' ) . '">' . $tag->name . '</a></li>';
 			}
 		echo '</ul>';
 
+		if ( !is_wp_error($chapters) && null != $chapters ) {
+			echo '<div class="more-from-chapter">';
+			echo '<h3>More from "' . $chapters[0]->name . '"</h3>';
+			ceo_list_jump_to_comic();
+			echo '</div>';
+		}
+
 		if ( is_active_sidebar( 'post-bottom' ) ) { 
 			echo '<div id="post-bottom-widget" class="widget-area">';
-			echo '<h3>More from "' . $chapters[0]->name . '"</h3>';
 			dynamic_sidebar( 'post-bottom' );
 			echo '</div>';
 		}; 	
